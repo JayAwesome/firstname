@@ -13,7 +13,7 @@ body {
 
 #left {
     padding: 1.5em;
-    background-color: #900c3f;
+    background-color: #6f9978;
     flex: 1;
 }
 
@@ -54,7 +54,7 @@ img {
 
 #right h3,
 #right h2 {
-    color: #900c3f;
+    color: #6f9978;
 }
 
 #right table {
