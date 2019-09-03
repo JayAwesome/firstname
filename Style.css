@@ -47,6 +47,35 @@ img {
     border-radius: 50px;
 }
 
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contactBtn {
+    background-color: white; 
+    border: 2px solid #4CAF50;
+    border-radius: 12px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.contactBtn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
 #right {
     width: 75%;
     margin-left: 1.5em;
