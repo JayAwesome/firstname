@@ -37,6 +37,7 @@ h2 {
 #proficiency div {
     border: 1px solid black;
     display: flex;
+    flex-wrap: wrap;
 }
 
 img {
@@ -117,4 +118,12 @@ img {
 
 #right h3 {
     margin-bottom: 0;
+}
+
+@media screen and (max-width: 500px){
+    #left{
+        background-color: red;
+        width: 100%;
+        flex: 100%; 
+    }
 }
